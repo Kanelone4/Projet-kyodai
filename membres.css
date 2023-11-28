@@ -6,6 +6,12 @@ body{
     font-family: arial, sans-serif;
     background-color:rgb(5, 3, 3);
 }
+section{
+    scroll-behavior: auto;
+    height: 755px;
+    width: 100%;
+}
+
 h3{
     color:#ffff;
     font-weight:700;
@@ -183,8 +189,7 @@ margin-bottom: -15%;
 }
 .fleche_bottom{
     font-size: 2.4rem;
-    margin-top: -35%;
-    margin-bottom: 1%;
+    margin-top: -31%;
     margin-left: 86%;
     width:11%;
     background-color: #ffff;
@@ -201,15 +206,18 @@ ul{
     list-style: none;
 }
 
-.container{
-    margin: 0 auto;
-    padding-top:11%;
+footer{
+    position: fixed;
+    margin: 0;
+    padding:0 ;
 }
+
 nav{
     position: flex;
     width: 297px;
     background-color: #ffff;
     padding: 0 2em;
+    height: 65px;
     border-top-right-radius:9px ;
     border-top-left-radius:9px ;
     border-bottom-left-radius:9px ;

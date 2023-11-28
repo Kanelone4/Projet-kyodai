@@ -6,6 +6,11 @@ body{
     font-family: arial, sans-serif;
     background-color:rgb(5, 3, 3);
 }
+section{
+    scroll-behavior: auto;
+    height: 755px;
+    width: 100%;
+}
 h3{
     color:#ffff;
     font-weight:700;
@@ -164,7 +169,7 @@ margin-bottom: -12%;
 }
 .fleche_bottom{
     font-size: 2.4rem;
-    margin-top: -35%;
+    margin-top: -31.7%;
     margin-bottom: 1%;
     margin-left: 86%;
     width:11%;
@@ -181,19 +186,21 @@ a{
 ul{
     list-style: none;
 }
-.container{
-    margin: 0 auto;
-    padding-top:11%;
-}
 nav{
     position: flex;
     width: 297px;
+    height: 65px;
     background-color: #ffff;
     padding: 0 2em;
     border-top-right-radius:9px ;
     border-top-left-radius:9px ;
     border-bottom-left-radius:9px ;
     border-bottom-right-radius:9px ;
+}
+footer{
+    position: fixed;
+    margin: 0;
+    padding:0 ;
 }
 div.nav_site{
     text-transform: none;
